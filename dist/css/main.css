@@ -32,3 +32,12 @@
     display: flex;
     justify-content: center;
 }
+
+.oss-btn {
+    width: 100%;
+    text-align: left;
+}
+
+.page-section-thin {
+    padding-top: 0;
+}
