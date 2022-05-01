@@ -10,7 +10,7 @@ const AboutPage = () => (
       />
       <div className="w-112 text-justify">
         <div className="mt-8">Welcome - my name is David.</div>
-        <div className="mt-4">
+        <div className="mt-8">
           On this site you can find reviews of places I've eaten at throughout
           my time on this earth (since the year 2022).
         </div>
