@@ -5,6 +5,10 @@ module.exports = {
       boxShadow: {
         lower: "0 3px rgb(40, 44, 52)",
       },
+      spacing: {
+        112: "28rem",
+        128: "32rem",
+      },
     },
   },
   plugins: [],

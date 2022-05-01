@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <>
-      <div className="h-screen grid grid-cols-2">
+      <div className="h-screen grid grid-cols-2 content-start">
         <div className="col-span-2 max-h-20 z-10 flex justify-between p-4 bg-red-50">
           <div className="flex font-bold text-3xl items-center">
             <div>DWU Reviews</div>
