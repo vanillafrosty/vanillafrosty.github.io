@@ -1,4 +1,4 @@
-import dwuPic from "./dwu-san-diego.jpg";
+import dwuPic from "./assets/dwu-san-diego.jpg";
 
 const AboutPage = () => (
   <div className="mx-auto col-span-2">
@@ -10,7 +10,7 @@ const AboutPage = () => (
       />
       <div className="w-112 text-justify">
         <div className="mt-8">Welcome - my name is David.</div>
-        <div className="mt-8">
+        <div className="mt-8 mb-8">
           On this site you can find reviews of places I've eaten at throughout
           my time on this earth (since the year 2022).
         </div>

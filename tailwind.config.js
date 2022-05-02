@@ -9,6 +9,9 @@ module.exports = {
         112: "28rem",
         128: "32rem",
       },
+      fontFamily: {
+        sans: ["Raleway", "sans-serif"],
+      },
     },
   },
   plugins: [],
