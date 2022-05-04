@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import L from "./ExtendedLeaflet";
+import iconMap from "./iconMap";
 
 const Map = () => {
   const [markers, setMarkers] = useState([]);
@@ -8,15 +8,6 @@ const Map = () => {
   const loadData = async () => {
     const { markers } = await import("./data/markers.json");
     setMarkers(markers);
-  };
-
-  const createAwesomeIcon = () => {
-    const dopeIcon = new L.AwesomeMarkers.Icon({
-      icon: "fa-solid fa-wine-glass",
-      markerColor: "pink",
-    });
-
-    return dopeIcon;
   };
 
   useEffect(() => {
@@ -38,7 +29,7 @@ const Map = () => {
         <Marker
           key={el.id}
           position={el.geometry.coordinates}
-          icon={createAwesomeIcon()}
+          icon={iconMap[el.type[0]]}
         >
           <Popup>{el.description}</Popup>
         </Marker>

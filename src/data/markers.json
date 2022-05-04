@@ -7,7 +7,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [32.763022559621966, -117.13063587080245]
-      }
+      },
+      "type": ["Restaurant"]
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [32.8398052313514, -117.27631336345621]
-      }
+      },
+      "type": ["Restaurant", "Marketplace"]
     }
   ]
 }
