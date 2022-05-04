@@ -1,4 +1,4 @@
-import dwuPic from "./assets/dwu-san-diego.jpg";
+import dwuPic from "../assets/images/dwu-san-diego.jpg";
 
 const AboutPage = () => (
   <div className="mx-auto col-span-2">

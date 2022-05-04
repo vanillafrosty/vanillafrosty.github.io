@@ -1,5 +1,5 @@
-@import url('./stylesheet.css');
-@import url('./leafletMarkers.css');
+@import url('./stylesheets/fonts.css');
+@import url('./stylesheets/leafletMarkers.css');
 
 @tailwind base;
 @tailwind components;

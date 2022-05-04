@@ -1,8 +1,8 @@
-import "./App.css";
+import "../../stylesheets/App.css";
 import { useState, useEffect } from "react";
 import { NavLink, Routes, Route, useLocation } from "react-router-dom";
-import Home from "./Travels";
-import About from "./About";
+import Home from "../Travels";
+import About from "../About";
 
 const App = () => {
   const location = useLocation();

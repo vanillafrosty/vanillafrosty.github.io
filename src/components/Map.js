@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import iconMap from "./iconMap";
+import iconMap from "../utils/iconMap";
 
 const Map = () => {
   const [markers, setMarkers] = useState([]);
 
   const loadData = async () => {
-    const { markers } = await import("./data/markers.json");
+    const { markers } = await import("../data/markers.json");
     setMarkers(markers);
   };
 

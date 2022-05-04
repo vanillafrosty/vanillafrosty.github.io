@@ -1,4 +1,4 @@
-import L from "./ExtendedLeaflet";
+import L from "./extendedLeaflet";
 
 const createAwesomeIcon = (options) => {
   const dopeIcon = new L.AwesomeMarkers.Icon(options);
