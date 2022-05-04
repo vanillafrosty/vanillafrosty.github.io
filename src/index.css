@@ -1,4 +1,5 @@
 @import url('./stylesheet.css');
+@import url('./leafletMarkers.css');
 
 @tailwind base;
 @tailwind components;

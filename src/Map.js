@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import L from "./ExtendedLeaflet";
 
 const Map = () => {
   const [markers, setMarkers] = useState([]);
@@ -7,6 +8,15 @@ const Map = () => {
   const loadData = async () => {
     const { markers } = await import("./data/markers.json");
     setMarkers(markers);
+  };
+
+  const createAwesomeIcon = () => {
+    const dopeIcon = new L.AwesomeMarkers.Icon({
+      icon: "fa-solid fa-wine-glass",
+      markerColor: "pink",
+    });
+
+    return dopeIcon;
   };
 
   useEffect(() => {
@@ -25,7 +35,11 @@ const Map = () => {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
       {markers.map((el) => (
-        <Marker key={el.id} position={el.geometry.coordinates}>
+        <Marker
+          key={el.id}
+          position={el.geometry.coordinates}
+          icon={createAwesomeIcon()}
+        >
           <Popup>{el.description}</Popup>
         </Marker>
       ))}
