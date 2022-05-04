@@ -31,7 +31,7 @@ const Map = () => {
           position={el.geometry.coordinates}
           icon={iconMap[el.type[0]]}
         >
-          <Popup>{el.description}</Popup>
+          <Popup>{el.name}</Popup>
         </Marker>
       ))}
     </MapContainer>
