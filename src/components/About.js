@@ -8,7 +8,7 @@ const AboutPage = () => {
   const [modalActive, setModalActive] = useState(null);
 
   return (
-    <div className="mx-auto col-span-2">
+    <div className="mx-auto">
       <div className="mt-8 flex flex-col items-center">
         <img
           src={dwuPic}

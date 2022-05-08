@@ -16,8 +16,12 @@ const App = () => {
 
   return (
     <>
-      <div className="font-sans h-screen grid grid-cols-2 content-start text-black">
-        <div className="col-span-2 max-h-20 z-10 flex sticky top-0 justify-between p-4 bg-red-50">
+      <div
+        className={`font-sans h-screen text-black ${
+          page === "/" ? "overflow-hidden" : ""
+        }`}
+      >
+        <div className="max-h-20 z-10 flex sticky top-0 justify-between p-4 bg-red-50">
           <div className="flex font-bold text-3xl items-center">
             <div>DWU Reviews</div>
           </div>
@@ -26,7 +30,7 @@ const App = () => {
               onClick={() => setBurgerDown((prevDown) => !prevDown)}
               className="text-center"
             >
-              <i class="fa-solid fa-bars fa-2xl"></i>
+              <i className="fa-solid fa-bars fa-2xl"></i>
             </div>
             <div
               className={`burger w-28 bg-white text-lg text-right font-bold border border-gray-900 rounded ${
