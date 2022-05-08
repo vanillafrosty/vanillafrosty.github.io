@@ -37,7 +37,7 @@ const App = () => {
                 <NavLink to="/about">About</NavLink>
               </div>
               <div className="hover:bg-slate-900 hover:text-white px-4 py-2">
-                Travels
+                <NavLink to="/">Travels</NavLink>
               </div>
             </div>
           </div>
