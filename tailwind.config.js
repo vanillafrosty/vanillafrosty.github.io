@@ -21,6 +21,11 @@ module.exports = {
       screens: {
         tiny: "576px",
       },
+      height: {
+        112: "28rem",
+        128: "32rem",
+        146: "36rem",
+      },
     },
   },
   plugins: [],

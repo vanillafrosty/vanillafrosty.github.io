@@ -4,8 +4,10 @@ import { ExclamationCircleIcon } from "@heroicons/react/solid";
 const TravelsPage = () => {
   return (
     <>
-      <Map />
-      <div className="overflow-y-scroll">
+      <div className="col-span-2 lg:col-span-1">
+        <Map />
+      </div>
+      <div className="col-span-2 lg:col-span-1 overflow-y-scroll">
         <div className="flex justify-center mt-2 text-xl">
           <ExclamationCircleIcon className="place-self-center h-6 w-6 mr-0.5 text-orange-400" />
           <div>
