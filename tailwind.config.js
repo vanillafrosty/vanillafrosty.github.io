@@ -22,9 +22,13 @@ module.exports = {
         tiny: "576px",
       },
       height: {
+        17: "4.25rem",
         112: "28rem",
         128: "32rem",
         146: "36rem",
+      },
+      margin: {
+        17: "4.25rem",
       },
     },
   },

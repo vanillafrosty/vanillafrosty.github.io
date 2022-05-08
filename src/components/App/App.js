@@ -21,7 +21,11 @@ const App = () => {
           page === "/" ? "overflow-hidden" : ""
         }`}
       >
-        <div className="max-h-20 z-10 flex sticky top-0 justify-between p-4 bg-red-50">
+        <div
+          className={`h-17 flex sticky top-0 justify-between p-4 bg-red-50 ${
+            page === "/" ? "hidden" : ""
+          }`}
+        >
           <div className="flex font-bold text-3xl items-center">
             <div>DWU Reviews</div>
           </div>
