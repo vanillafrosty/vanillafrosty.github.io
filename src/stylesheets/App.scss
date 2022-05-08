@@ -1,0 +1,91 @@
+.burger-parent {
+  position: relative;
+}
+
+.burger {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  transform: scale(0);
+  right: 0px;
+  z-index: 20;
+  &.burger-down {
+    animation: moveDown 0.5s cubic-bezier(0.19, 1.3, 0.76, 0.97) forwards;
+    &.burger-up {
+      animation: moveUp 0.5s cubic-bezier(0.3, 0.13, 1, 0.42) forwards;
+    }
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    transform: scale(0) translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(36px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: scale(1) translateY(36px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0) translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+.burgericon {
+  vertical-align: middle;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+}
+
+.navlink {
+  box-shadow: 0 3px #282c34;
+}

@@ -24,12 +24,12 @@ const AboutPage = () => {
           <div className="mt-8 mb-8">
             This site is written in React and styled with a mix of Tailwind,
             vanilla CSS, and icon libraries. See a list of known issues{" "}
-            <a
+            <span
               onClick={() => setModalActive(true)}
               className="text-blue-600 cursor-pointer underline underline-offset-4"
             >
               here
-            </a>
+            </span>
             .
           </div>
           <div
