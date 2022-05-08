@@ -1,6 +1,7 @@
 import { useState } from "react";
 import cs from "classnames";
 import { NavAbout, NavTravel } from "../helper/NavLinks";
+import "../../stylesheets/Burger.scss";
 
 const Burger = ({ className }) => {
   const [burgerDown, setBurgerDown] = useState(null);

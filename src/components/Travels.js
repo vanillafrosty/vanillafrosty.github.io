@@ -9,16 +9,16 @@ const TravelsPage = () => {
   const { width } = useWindowDimensions();
 
   return (
-    <div className="tester-container">
+    <div className="map-container">
       <Map />
-      <div className="tester-floater">
+      <div className="map-floater bg-zinc-50 border border-solid border-slate-900 rounded-md py-1 pr-1 pl-2.5">
         <div className="flex font-bold text-3xl items-center">
-          <div>DWU Reviews</div>
+          <div className="mr-1">DWU Reviews</div>
         </div>
         <Burger />
       </div>
       <div
-        className={`${clicked ? "tester overflow-scroll" : "tester-gone"}`}
+        className={`${clicked ? "overlay-max overflow-scroll" : "overlay-min"}`}
         style={
           clicked
             ? {}
@@ -30,7 +30,7 @@ const TravelsPage = () => {
       >
         <div
           onClick={() => setClicked((prevClicked) => !prevClicked)}
-          className="button-clicker"
+          className="extender"
         >
           button clicker
         </div>
