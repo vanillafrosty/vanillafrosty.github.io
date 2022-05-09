@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import iconMap from "../utils/iconMap";
 
-const Map = () => {
+const Map = ({ onMarkerClick }) => {
   const [markers, setMarkers] = useState([]);
 
   const loadData = async () => {
@@ -16,7 +16,7 @@ const Map = () => {
 
   return (
     <MapContainer
-      className="z-0 h-full"
+      className="z-10 h-full"
       center={[32.76301228860241, -117.13063799019834]}
       zoom={12}
       scrollWheelZoom={false}
@@ -30,6 +30,11 @@ const Map = () => {
           key={el.id}
           position={el.geometry.coordinates}
           icon={iconMap[el.type[0]]}
+          eventHandlers={{
+            click: () => {
+              onMarkerClick(el);
+            },
+          }}
         >
           <Popup>{el.name}</Popup>
         </Marker>

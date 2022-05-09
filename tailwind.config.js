@@ -9,14 +9,14 @@ module.exports = {
         104: "26rem",
         112: "28rem",
         128: "32rem",
-        146: "36rem",
+        144: "36rem",
       },
       fontFamily: {
         sans: ["Raleway", "sans-serif"],
       },
       maxWidth: {
         128: "32rem",
-        146: "36rem",
+        144: "36rem",
       },
       screens: {
         tiny: "576px",
@@ -25,7 +25,7 @@ module.exports = {
         17: "4.25rem",
         112: "28rem",
         128: "32rem",
-        146: "36rem",
+        144: "36rem",
       },
       margin: {
         17: "4.25rem",

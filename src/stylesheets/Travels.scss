@@ -6,25 +6,27 @@
 
 .overlay-max {
   position: absolute;
-  display: flex;
   bottom: 0;
   left: 0;
   z-index: 24;
   width: 100%;
-  height: 50%;
+  height: 68%;
   background-color: white;
 }
 
 .overlay-min {
   position: absolute;
   display: block;
-  bottom: 50px;
-  left: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 24;
-  width: 50px;
+  bottom: 0px;
   background-color: white;
+}
+
+.z-hidden {
+  z-index: 0;
+}
+
+.z-regular {
+  z-index: 24;
 }
 
 .map-floater {
@@ -33,4 +35,14 @@
   top: 50px;
   right: 50px;
   z-index: 24;
+}
+
+.title-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.title-wrap {
+  word-break: break-word;
 }
