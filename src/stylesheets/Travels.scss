@@ -37,7 +37,8 @@
   z-index: 24;
 }
 
-.title-ellipsis {
+.title-ellipsis,
+.leaflet-popup-content {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

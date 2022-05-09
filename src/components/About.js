@@ -1,6 +1,5 @@
 import dwuPic from "../assets/images/dwu-san-diego.jpg";
 import issue1 from "../assets/images/known-issues-1.png";
-import { ExclamationCircleIcon } from "@heroicons/react/solid";
 
 const AboutPage = () => {
   return (
