@@ -1,1 +1,0 @@
-This is a site built for fun, so the code here may not be the cleanest, most production-ready, or most organized.

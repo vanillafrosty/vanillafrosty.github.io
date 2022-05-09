@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ced869c.css",
+    "main.js": "/static/js/main.75451abc.js",
+    "static/js/651.cb365d67.chunk.js": "/static/js/651.cb365d67.chunk.js",
+    "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
+    "static/media/dwu-san-diego.jpg": "/static/media/dwu-san-diego.0fa233855be549e0b8f0.jpg",
+    "static/media/known-issues-1.png": "/static/media/known-issues-1.df131466c05c020d8b02.png",
+    "static/media/markers-soft@2x.png": "/static/media/markers-soft@2x.050b2167d387021fb8ba.png",
+    "static/media/raleway-v22-latin-600.ttf": "/static/media/raleway-v22-latin-600.537fcd0ecebbec070f30.ttf",
+    "static/media/raleway-v22-latin-800.ttf": "/static/media/raleway-v22-latin-800.85c9bd49a733108c62be.ttf",
+    "static/media/raleway-v22-latin-regular.ttf": "/static/media/raleway-v22-latin-regular.7491e11d0b82835ace09.ttf",
+    "static/media/raleway-v22-latin-500.ttf": "/static/media/raleway-v22-latin-500.14debf81e80373785bdd.ttf",
+    "static/media/raleway-v22-latin-700.ttf": "/static/media/raleway-v22-latin-700.c7b8aaf39cfd48a498b1.ttf",
+    "static/media/markers-soft.png": "/static/media/markers-soft.cdc0e07beba6866bb977.png",
+    "static/media/raleway-v22-latin-700.woff": "/static/media/raleway-v22-latin-700.6aded4d72c6088cfa96b.woff",
+    "static/media/raleway-v22-latin-600.woff": "/static/media/raleway-v22-latin-600.21c028af1b458a12a29e.woff",
+    "static/media/raleway-v22-latin-800.woff": "/static/media/raleway-v22-latin-800.9f55a982c90528f32916.woff",
+    "static/media/raleway-v22-latin-regular.woff": "/static/media/raleway-v22-latin-regular.f8d47ad7f580d88f4807.woff",
+    "static/media/raleway-v22-latin-500.woff": "/static/media/raleway-v22-latin-500.627800d124ceee1f74f4.woff",
+    "static/media/raleway-v22-latin-600.woff2": "/static/media/raleway-v22-latin-600.0a42ae35c39a08f3db47.woff2",
+    "static/media/raleway-v22-latin-700.woff2": "/static/media/raleway-v22-latin-700.368328471c9cb6626306.woff2",
+    "static/media/raleway-v22-latin-800.woff2": "/static/media/raleway-v22-latin-800.c1d9d698b3aea9612cc9.woff2",
+    "static/media/raleway-v22-latin-regular.woff2": "/static/media/raleway-v22-latin-regular.d0033942a11996c40380.woff2",
+    "static/media/raleway-v22-latin-500.woff2": "/static/media/raleway-v22-latin-500.86050dec57a4fdafb363.woff2",
+    "index.html": "/index.html",
+    "main.5ced869c.css.map": "/static/css/main.5ced869c.css.map",
+    "main.75451abc.js.map": "/static/js/main.75451abc.js.map",
+    "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ced869c.css",
+    "static/js/main.75451abc.js"
+  ]
+}
