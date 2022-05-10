@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9245d88b.css",
-    "main.js": "/static/js/main.02862458.js",
-    "static/js/651.cb365d67.chunk.js": "/static/js/651.cb365d67.chunk.js",
+    "main.css": "/static/css/main.e3931592.css",
+    "main.js": "/static/js/main.0b338827.js",
+    "static/js/758.c800ca4e.chunk.js": "/static/js/758.c800ca4e.chunk.js",
+    "static/js/651.5e828d1d.chunk.js": "/static/js/651.5e828d1d.chunk.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
+    "static/media/pescador-fish-market-1.jpg": "/static/media/pescador-fish-market-1.f9be230ae7d5b43f89f8.jpg",
+    "static/media/pescador-fish-market-2.jpg": "/static/media/pescador-fish-market-2.73778c626d630c5df2a1.jpg",
+    "static/media/pescador-fish-market-3.jpg": "/static/media/pescador-fish-market-3.0eac388cb32598e93bc2.jpg",
     "static/media/dwu-san-diego.jpg": "/static/media/dwu-san-diego.0fa233855be549e0b8f0.jpg",
+    "static/media/cantina-mayahuel-2.jpg": "/static/media/cantina-mayahuel-2.2a344c632e08013e0404.jpg",
+    "static/media/cantina-mayahuel-1.jpg": "/static/media/cantina-mayahuel-1.4b5b6e3d3645e28b1636.jpg",
     "static/media/markers-soft@2x.png": "/static/media/markers-soft@2x.050b2167d387021fb8ba.png",
     "static/media/raleway-v22-latin-600.ttf": "/static/media/raleway-v22-latin-600.537fcd0ecebbec070f30.ttf",
     "static/media/raleway-v22-latin-800.ttf": "/static/media/raleway-v22-latin-800.85c9bd49a733108c62be.ttf",
@@ -23,12 +29,13 @@
     "static/media/raleway-v22-latin-regular.woff2": "/static/media/raleway-v22-latin-regular.d0033942a11996c40380.woff2",
     "static/media/raleway-v22-latin-500.woff2": "/static/media/raleway-v22-latin-500.86050dec57a4fdafb363.woff2",
     "index.html": "/index.html",
-    "main.9245d88b.css.map": "/static/css/main.9245d88b.css.map",
-    "main.02862458.js.map": "/static/js/main.02862458.js.map",
+    "main.e3931592.css.map": "/static/css/main.e3931592.css.map",
+    "main.0b338827.js.map": "/static/js/main.0b338827.js.map",
+    "758.c800ca4e.chunk.js.map": "/static/js/758.c800ca4e.chunk.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9245d88b.css",
-    "static/js/main.02862458.js"
+    "static/css/main.e3931592.css",
+    "static/js/main.0b338827.js"
   ]
 }
