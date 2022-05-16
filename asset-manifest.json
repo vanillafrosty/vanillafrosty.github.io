@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.46895dbd.css",
-    "main.js": "/static/js/main.d6cc86eb.js",
+    "main.css": "/static/css/main.37279bec.css",
+    "main.js": "/static/js/main.e5a62d5a.js",
     "static/js/124.0c288859.chunk.js": "/static/js/124.0c288859.chunk.js",
-    "static/js/651.0099ca3a.chunk.js": "/static/js/651.0099ca3a.chunk.js",
+    "static/js/651.a727a4f2.chunk.js": "/static/js/651.a727a4f2.chunk.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/pescador-fish-market-1.jpg": "/static/media/pescador-fish-market-1.f9be230ae7d5b43f89f8.jpg",
     "static/media/the-cottage-2.jpg": "/static/media/the-cottage-2.cd8aae6fed6eee7525c6.jpg",
@@ -32,13 +32,13 @@
     "static/media/raleway-v22-latin-regular.woff2": "/static/media/raleway-v22-latin-regular.d0033942a11996c40380.woff2",
     "static/media/raleway-v22-latin-500.woff2": "/static/media/raleway-v22-latin-500.86050dec57a4fdafb363.woff2",
     "index.html": "/index.html",
-    "main.46895dbd.css.map": "/static/css/main.46895dbd.css.map",
-    "main.d6cc86eb.js.map": "/static/js/main.d6cc86eb.js.map",
+    "main.37279bec.css.map": "/static/css/main.37279bec.css.map",
+    "main.e5a62d5a.js.map": "/static/js/main.e5a62d5a.js.map",
     "124.0c288859.chunk.js.map": "/static/js/124.0c288859.chunk.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46895dbd.css",
-    "static/js/main.d6cc86eb.js"
+    "static/css/main.37279bec.css",
+    "static/js/main.e5a62d5a.js"
   ]
 }
