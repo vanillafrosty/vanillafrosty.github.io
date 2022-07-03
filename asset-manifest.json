@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ad1ae23.css",
-    "main.js": "/static/js/main.551f17f8.js",
-    "static/js/651.7efd5d53.chunk.js": "/static/js/651.7efd5d53.chunk.js",
-    "static/js/991.aab3ecd9.chunk.js": "/static/js/991.aab3ecd9.chunk.js",
+    "main.css": "/static/css/main.8b6f82ca.css",
+    "main.js": "/static/js/main.bba76832.js",
+    "static/js/651.5c399bce.chunk.js": "/static/js/651.5c399bce.chunk.js",
+    "static/js/991.6290d1a9.chunk.js": "/static/js/991.6290d1a9.chunk.js",
+    "static/js/731.f3d2aece.chunk.js": "/static/js/731.f3d2aece.chunk.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/dwu-san-diego.jpg": "/static/media/dwu-san-diego.0fa233855be549e0b8f0.jpg",
     "static/media/markers-soft@2x.png": "/static/media/markers-soft@2x.050b2167d387021fb8ba.png",
@@ -36,12 +37,12 @@
     "static/media/source-sans-pro-v21-latin-700.woff2": "/static/media/source-sans-pro-v21-latin-700.a10519031679e736153a.woff2",
     "static/media/source-sans-pro-v21-latin-900.woff2": "/static/media/source-sans-pro-v21-latin-900.086408af8f268379634c.woff2",
     "index.html": "/index.html",
-    "main.2ad1ae23.css.map": "/static/css/main.2ad1ae23.css.map",
-    "main.551f17f8.js.map": "/static/js/main.551f17f8.js.map",
+    "main.8b6f82ca.css.map": "/static/css/main.8b6f82ca.css.map",
+    "main.bba76832.js.map": "/static/js/main.bba76832.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ad1ae23.css",
-    "static/js/main.551f17f8.js"
+    "static/css/main.8b6f82ca.css",
+    "static/js/main.bba76832.js"
   ]
 }
